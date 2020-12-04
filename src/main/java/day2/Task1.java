@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int storeyNum = s.nextInt();
+        int storeyNum = s.nextInt(); //имя переменной не floor, т.к. когда говорим про этажность - это storey
         if (1 <= storeyNum && storeyNum <= 4) {
             System.out.println("Малоэтажный дом");
         } else if (5 <= storeyNum && storeyNum <= 8) {
