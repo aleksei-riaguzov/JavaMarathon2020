@@ -20,10 +20,9 @@ public class Task1 {
                 biggerThanEight++;
             if (array[i] % 2 == 0)
                 even++;
+            else odd++;
             if (array[i] == 1)
                 equalsOne++;
-            if (array[i] % 2 != 0)
-                odd++;
             sum += array[i];
         }
         System.out.println(Arrays.toString(array) +
